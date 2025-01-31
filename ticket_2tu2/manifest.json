@@ -1,8 +1,6 @@
-
-
 {
-  "name": "Drop Ticket",
-  "short_name": "Drop Ticket",
+  "name": "2TU2",
+  "short_name": "2TU2",
   "start_url": "index.html",
   "display": "standalone",
   "theme_color": "#29B99A",
@@ -10,6 +8,7 @@
   "icons": [
     {
       "src": "../img/dtù.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
