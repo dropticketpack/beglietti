@@ -1,6 +1,6 @@
 {
   "name": "Drop Ticket",
-  "short_name": "Drop Ticket",
+  "short_name": "1TU1",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#29B99A",
@@ -9,7 +9,6 @@
     {
       "src": "../img/dtù.png",
       "sizes": "512x512",
-
       "type": "image/png"
     }
   ]
