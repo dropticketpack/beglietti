@@ -1,0 +1,176 @@
+@font-face {
+    font-family: vazir;
+    src: url("../fonts/Vazir.ttf") format("truetype");
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header_section {
+    justify-content: space-between;
+    padding: 15px 4%;
+    background-color: #29B99A;
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    /*font-weight: bold;*/
+    display: flex;
+}
+.footer_section {
+    padding: 8px 4% 20px;
+    background-color: #29B99A;
+    font-size: 16px;
+    font-weight: lighter;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    display: block;
+}
+.footer_icons{
+    display: flex;
+    justify-content: space-around;
+}
+.dots_section {
+    float: right;
+    text-align: right;
+}
+.header_section div {
+    display: inline-block;
+}
+.back_btn {
+    margin-right: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+.text_of_ticket {
+    font-font: vazir;
+    width: 100%;
+    /*margin-left: 20px;*/
+}
+.ticket_details{
+    position: relative;
+    overflow: hidden;
+    padding: 12px 20px 12px 45px;
+}
+.ticket_region {
+    color: #888;
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+.the_ticket_name{
+    color: #000;
+    font-size: 14px;
+}
+.green_tick {
+    position: relative;
+    right: 30px;
+    font-size: 15px;
+    color: #29B99A;
+}
+.bus_icon{
+    color: #F3A831;
+}
+.remaining_time{
+    float: right;
+    color: #666;
+    font-size: 13px;
+}
+.ticket_green_box{
+    position: absolute;
+    height: 500%;
+    width: 200%;
+    top: -200%;
+    border-radius: 0 100% 100% 0;
+    left: -100%;
+    background: linear-gradient(-90deg ,#29B99Abb , #29B99A66);
+}
+.ticket_green_box1{
+    position: absolute;
+    height: 500%;
+    width: 200%;
+    top: -200%;
+    border-radius: 0 100% 100% 0;
+    left: -100%;
+    background: linear-gradient(-90deg ,#29B99Abb , #29B99A22);
+}
+.ticket_green_box2{
+    position: absolute;
+    height: 500%;
+    width: 200%;
+    top: -200%;
+    border-radius: 0 100% 100% 0;
+    left: -100%;
+    background: linear-gradient(-90deg ,#29B99Abb , #29B99A22);
+}
+.ticket_green_box3{
+    position: absolute;
+    height: 500%;
+    width: 200%;
+    top: -200%;
+    border-radius: 0 100% 100% 0;
+    left: -100%;
+    background: linear-gradient(-90deg ,#29B99Abb , #29B99A22);
+}
+.qr_section {
+    width: fit-content;
+    display: block;
+    margin: 70px auto;
+}
+.qr_section img {
+    width: 120px;
+}
+.details_table tbody tr{
+    border-bottom: 1px solid #888;
+    padding: 12px 4px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.details_table {
+    width: 100%;
+}
+.title_td {
+    color: #888;
+    font-size: 13px;
+}
+.detai_td {
+    font-size: 14px;
+    color: #666;
+}
+.a_ticket {
+    padding: 10px;
+    box-shadow: 0px 0px 5px #0002;
+    width: 97%;
+    border: 2px solid #eee;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+}
+a {
+    text-decoration: none !important;
+}
+.ticket_company {
+    color: #888888;
+    font-size: 14px;
+    line-height: 20px;
+}
+.my_tickets_bus_icon{
+    margin-top: 25px;
+}
+.validation_time{
+    color: #888;
+    text-align: right;
+    float: right;
+    font-size: 12px;
+}
+.footer_icon {
+    text-align: center;
+}
+.footer_icon div{
+    font-weight: bold;
+    margin-top: 5px;
+
+}

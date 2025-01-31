@@ -1,0 +1,16 @@
+
+
+{
+  "name": "Drop Ticket",
+  "short_name": "Drop Ticket",
+  "start_url": "index.html",
+  "display": "standalone",
+  "theme_color": "#29B99A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "../img/dtù.png",
+      "type": "image/png"
+    }
+  ]
+}
