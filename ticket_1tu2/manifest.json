@@ -1,15 +1,14 @@
-
-
 {
-  "name": "Drop Ticket",
-  "short_name": "Drop Ticket",
-  "start_url": "index.html",
+  "name": "1TU2",
+  "short_name": "1TU2",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#29B99A",
   "orientation": "portrait-primary",
   "icons": [
     {
       "src": "../img/dtù.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
