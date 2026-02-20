@@ -15,6 +15,7 @@
     font-size: 18px;
     font-weight: lighter;
     color: white;
+    align-items: center;
     /*font-weight: bold;*/
     display: flex;
 }
@@ -34,7 +35,7 @@
     justify-content: space-around;
 }
 .dots_section {
-    float: right;
+    margin-left: auto;
     text-align: right;
 }
 .header_section div {
@@ -174,3 +175,4 @@ a {
     margin-top: 5px;
 
 }
+
