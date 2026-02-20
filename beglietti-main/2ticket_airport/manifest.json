@@ -1,0 +1,15 @@
+{
+  "name": "2AERO",
+  "short_name": "2AERO",
+  "start_url": "index.html",
+  "display": "standalone",
+  "theme_color": "#29B99A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "../img/dtù.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
