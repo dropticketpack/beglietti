@@ -10,12 +10,12 @@
 }
 .header_section {
     justify-content: space-between;
+    align-items: center;
     padding: 15px 4%;
     background-color: #29B99A;
     font-size: 18px;
     font-weight: lighter;
     color: white;
-    align-items: center;
     /*font-weight: bold;*/
     display: flex;
 }
@@ -119,9 +119,16 @@
     width: fit-content;
     display: block;
     margin: 70px auto;
+    text-align: center;
 }
 .qr_section img {
     width: 120px;
+}
+.qr_section canvas {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
 }
 .details_table tbody tr{
     border-bottom: 1px solid #888;
@@ -175,4 +182,3 @@ a {
     margin-top: 5px;
 
 }
-

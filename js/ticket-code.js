@@ -54,6 +54,11 @@ function setTicketCode(ticketId, instance = null) {
         for (let i = 0; i < codeElements.length; i++) {
             codeElements[i].textContent = code;
         }
+        
+        // Trigger QR code generation if function exists
+        if (typeof generateQRCode === 'function') {
+            generateQRCode(code);
+        }
     }
 }
 
@@ -74,5 +79,13 @@ function detectTicketId() {
 document.addEventListener('DOMContentLoaded', function() {
     const ticketId = detectTicketId();
     setTicketCode(ticketId);
+    
+    // Dispatch custom event when ticket code is set
+    setTimeout(function() {
+        const event = new CustomEvent('ticketCodeSet', {
+            detail: { ticketId: ticketId }
+        });
+        document.dispatchEvent(event);
+    }, 150);
 });
 
