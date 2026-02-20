@@ -56,9 +56,11 @@ function setTicketCode(ticketId, instance = null) {
         }
         
         // Trigger QR code generation if function exists
-        if (typeof generateQRCode === 'function') {
-            generateQRCode(code);
-        }
+        setTimeout(function() {
+            if (typeof generateQRCode === 'function') {
+                generateQRCode(code);
+            }
+        }, 100);
     }
 }
 
